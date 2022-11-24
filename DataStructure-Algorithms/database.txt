@@ -1,3 +1,0 @@
-
-database = Vikas@231
-mySQL workBench
