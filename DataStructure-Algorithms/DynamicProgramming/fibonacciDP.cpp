@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// solved by interative 
 int fibo(vector<int > dp , int n){
     
 
@@ -16,6 +18,20 @@ int fibo(vector<int > dp , int n){
     // By recursion using dynamic programming 
 
 }
+
+// Solved by Recursive Memorizarion
+int solveRec( int  n , vector<int>&dp){
+    if(n == 0 || n == 1)
+        return n;
+    
+    if(dp[n] != -1)
+        return dp[n];
+  
+    dp[n] = solveRec(n-1 , dp) + solveRec(n-2 , dp);
+    return dp[n];
+}
+
+
 int solve(int n , vector<int >dp){
 
     if( n == 0 )
