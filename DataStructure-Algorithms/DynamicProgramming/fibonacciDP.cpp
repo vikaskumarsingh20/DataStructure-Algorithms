@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// solved by interative 
+// solved by TABULATOR METHOD with o(N) time & space complexity 
 int fibo(vector<int > dp , int n){
     
 
@@ -19,7 +19,7 @@ int fibo(vector<int > dp , int n){
 
 }
 
-// Solved by Recursive Memorizarion
+// Solved by Recursive Memorizarion   with o(N) time & o(N) + (N) space cpletxity
 int solveRec( int  n , vector<int>&dp){
     if(n == 0 || n == 1)
         return n;
