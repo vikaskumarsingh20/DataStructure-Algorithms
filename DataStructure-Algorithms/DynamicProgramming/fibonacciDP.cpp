@@ -31,6 +31,21 @@ int solveRec( int  n , vector<int>&dp){
     return dp[n];
 }
 
+// SPACE OPTIMAZATION WITH 0(1)
+int solveSpaceOptm(){
+        int n; cin>>n;
+    
+    int prev1 = 1;
+    int prev2 = 0;
+    
+    for(int  i=2 ;i<=n;i++){
+        int curr = prev1 + prev2;
+        // shifting logic 
+        prev2 = prev1;
+        prev1 = curr;
+    }
+    return prev1;
+}
 
 int solve(int n , vector<int >dp){
 
