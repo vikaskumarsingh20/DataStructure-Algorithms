@@ -66,7 +66,7 @@ int solveMom(vector<int > & num , int x, vector<int> &dp){
     int mini = INT_MAX;
     
     for(int  i = 0;i<num.size();i++){
-        int ans = solveRec(num , x - num[i]);
+        int ans = solveMom(num , x - num[i] , dp);
         if(ans != INT_MAX)
             mini = min(mini , 1+ans);
     }
