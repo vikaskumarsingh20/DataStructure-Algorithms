@@ -18,9 +18,9 @@
     int include = 0;
     if (weight[index] <= capacity)  // under the knapsack weight 
     {
-        include = value[index] + solveRec(weight, value, index - 1, capacity - weight[index]);
+        include = value[index] + solveRec(weight, value, index - 1, capacity - weight[index] ;//accepting
     }
-    int exclude = 0 + solveRec(weight, value, index - 1, capacity);
+    int exclude = 0 + solveRec(weight, value, index - 1, capacity);//rejecting or ignore
 
     int ans = max(exclude, include);
     return ans;
@@ -30,8 +30,8 @@ int solveMom(vector<int> &weight, vector<int> &value, int index, int capacity, v
 {
     if (index == 0)
     {
-        if (weight[0] <= capacity) // To check uh under the  // rejecting
-        {
+        if (weight[0] <= capacity) // To check uh under the range
+    {
             return value[0];
         }
         else
