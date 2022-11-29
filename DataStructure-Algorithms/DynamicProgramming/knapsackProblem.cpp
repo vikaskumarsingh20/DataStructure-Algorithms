@@ -1,5 +1,7 @@
 // link ->     https://www.codingninjas.com/codestudio/problems/0-1-knapsack_920542?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar
 
+// This is 2D DP Problem with solution worst case to Optimal solution .
+
 #include <bits/stdc++.h>
 
         
@@ -28,7 +30,7 @@ int solveMom(vector<int> &weight, vector<int> &value, int index, int capacity, v
 {
     if (index == 0)
     {
-        if (weight[0] <= capacity)
+        if (weight[0] <= capacity) // To check uh under the  // rejecting
         {
             return value[0];
         }
