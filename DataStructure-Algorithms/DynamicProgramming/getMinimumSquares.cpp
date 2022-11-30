@@ -15,15 +15,15 @@ class Solution{
 	    if(n == 0 )
 	    return 0;
 	    
-	    int ans = n;
+	    int ans = n; 
 	    for(int i =0 ;i*i <= n;i++){
 	        int temp = i*i;
-	        ans = min(ans , 1+ solve(n- temp));
+	        ans = min(ans , 1+ solve(n- temp));   // 1 add becuacse when created recursion tree return value so inclulde its own value 
 	    }
 	    return ans;
 	}
 	
-	int solveMem(int n  , vector<int>&dp){
+	int solveMem(int n  , vector<int>&dp){   // memorization solution
 	    if(n == 0) return 0;
 	    if(dp[n] != -1)
 	    return dp[n];
@@ -38,7 +38,7 @@ class Solution{
 	        
 	    }
 	    
-	   int solveTab(int n){
+	   int solveTab(int n){                 //tabulations solutions with optimal solutions 
 	       vector<int>dp(n+1 , INT_MAX);
 	       
 	       dp[0] = 0;
