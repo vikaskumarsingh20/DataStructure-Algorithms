@@ -41,7 +41,7 @@ public:
         return dp[i][j] = 0;
      }
      
-    int solveTab(vector<vector<int>> &mat,int &maxi){
+    int solveSpaceOptimazation(vector<vector<int>> &mat,int &maxi){
 
     int row=mat.size();
 
@@ -90,7 +90,7 @@ public:
         // return maxi;
         
       int maxi =0 ;
-      solveTab(mat , maxi);
+      solveSpaceOptimazation(mat , maxi);
       return maxi;
     }
 };
