@@ -6,7 +6,7 @@ public class SrairClimb {
             return n;
         }
        
-        int output = stairClimb( n - 1) + stairClimb(n -2);
+        int output = stairClimb( n - 1) + stairClimb(n -2);   // Expontial time complexity
            return output ;
     }
     /**
