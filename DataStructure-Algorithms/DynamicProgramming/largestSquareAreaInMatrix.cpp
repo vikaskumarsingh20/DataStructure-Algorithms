@@ -22,10 +22,10 @@ public:
         // Top Down Approach i.e Memorization
        int solveMem(vector<vector<int>>&mat, int i , int j , int &maxi ,vector<vector<int>>&dp){
          // abse case
-          if(i >= mat.size() || j >= mat[0].size())
+          if(i >= mat.size() || j >= mat[0].size())  // when out of matrix then retun 0
              return 0;
              
-             if(dp[i][j] != -1)
+             if(dp[i][j] != -1)  // already exist ans then return it 
              return dp[i][j];
              
         int right = solveMem(mat, i, j+1, maxi,dp);
@@ -41,7 +41,7 @@ public:
         return dp[i][j] = 0;
      }
      
-    int solveSpaceOptimazation(vector<vector<int>> &mat,int &maxi){
+    int solveSpaceOptimazation(vector<vector<int>> &mat,int &maxi){   // time complexity O(M*N) sapce O(N)
 
     int row=mat.size();
 
