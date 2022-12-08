@@ -1,16 +1,17 @@
 class Sudoku{
     static int board[][] = {
-     {5,3,0,0,7,0,0,0,0}
-    ,{6,0,0,1,9,5,0,0,0}
-    ,{0,9,8,0,0,0,0,6,0},
+    {5,3,0,0,7,0,0,0,0},
+    {6,0,0,1,9,5,0,0,0},
+    {0,9,8,0,0,0,0,6,0},
     {8,0,0,0,6,0,0,0,3},
     {4,0,0,8,0,3,0,0,1},
     {7,0,0,0,2,0,0,0,6},
     {0,6,0,0,0,0,2,8,0},
     {0,0,0,4,1,9,0,0,5},
-    {0,0,0,0,8,0,0,7,9}};
+    {0,0,0,0,8,0,0,7,9}
+    };
 
-    static void print(){
+    static void print(){ // to  print sudoku
         for(int i = 0 ; i<board.length; i++){
             for(int j = 0; j<board.length; j++){
                 System.out.print(board[i][j]+" ");
@@ -54,9 +55,9 @@ class Sudoku{
         
         // Before Going in 1 to 9 Option Check that cell must be empty
         
-        if(col == board.length){
-            col = 0;
-            row = row + 1;
+        if(col == board.length){  // when col has been full 1 to 9
+            col = 0;            //  put value 0 again col 
+            row = row + 1;    // then update row 
         }
         if(row == board.length){
             print();
