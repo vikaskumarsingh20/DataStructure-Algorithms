@@ -24,6 +24,17 @@ Example 3:
 Input: nums = [1]
 Output: 1
   
+	// Most Important
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) { 
+       int ans=0; 
+	   for(auto x:nums) // 2 2 1
+	   ans^=x;    // 2^2 =0 0 0 * 0 0 1 =  0 0 1
+	   return ans;
+    }
+};
+
   //CODE
   class Solution {
     //T.C O(n) linear 
@@ -107,18 +118,6 @@ Return the value.
 Why does this work ??
 Because , the elements with frequency=2 will result in 0. And then the only element with frequency=1 will generate the answer.
 
-CODE :
-
-
-class Solution {
-public:
-    int singleNumber(vector<int>& nums) { 
-       int ans=0;
-	   for(auto x:nums)
-	   ans^=x;
-	   return ans;
-    }
-};
 
 //Method 4
 
