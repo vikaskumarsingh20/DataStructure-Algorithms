@@ -13,6 +13,7 @@ public class BoardMaze {
             ArrayList<String> list =new ArrayList<>();
             return list;
         }
+
       
         ArrayList<String> finalResult = new ArrayList<>();
         // Move Down
