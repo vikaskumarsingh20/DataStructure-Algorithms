@@ -18,39 +18,39 @@ Certainly! Here is the list of the top 10 frequently asked array-related questio
 
 # LinkedList
 
-Reverse a Linked List
-Find the Middle Node
-Detect Cycle in a Linked List
-Merge Two Sorted Linked Lists
-Remove Nth Node from the End
-Intersection of Two Linked Lists
-Remove Duplicates from a Sorted Linked List
-Check if a Linked List is Palindrome
-Swap Nodes in Pairs
-Add Two Numbers Represented by Linked Lists
+1. Reverse a Linked List
+2. Find the Middle Node
+3. Detect Cycle in a Linked List
+4. Merge Two Sorted Linked Lists
+5. Remove Nth Node from the End
+6. Intersection of Two Linked Lists
+7. Remove Duplicates from a Sorted Linked List
+8. Check if a Linked List is Palindrome
+9. Swap Nodes in Pairs
+10. Add Two Numbers Represented by Linked Lists
 
 # Stack
 
-Valid Parentheses
-Evaluate Reverse Polish Notation
-Implement Stack using Queues
-Next Greater Element
-Largest Rectangle in Histogram
-Simplify Directory Path
-Min Stack
-Implement Stack using Linked List
-Exclusive Time of Functions
-Baseball Game
+1. Valid Parentheses
+2. Evaluate Reverse Polish Notation
+3. Implement Stack using Queues
+4. Next Greater Element
+5. Largest Rectangle in Histogram
+6. Simplify Directory Path
+7. Min Stack
+8. Implement Stack using Linked List
+9. Exclusive Time of Functions
+10. Baseball Game
 
 # Queue
 
-Implement Queue using Stacks
-Design Circular Queue
-Sliding Window Maximum
-Implement Queue using Linked List
-Reconstruct Queue by Height
-Design Hit Counter
-Generate Binary Numbers
-Recent Counter
-Queue Reconstruction by Height
-First Unique Number in a Stream
+1. Implement Queue using Stacks
+2. Design Circular Queue
+3. Sliding Window Maximum
+4. Implement Queue using Linked List
+5. Reconstruct Queue by Height
+6. Design Hit Counter
+7. Generate Binary Numbers
+8. Recent Counter
+9. Queue Reconstruction by Height
+10. First Unique Number in a Stream
