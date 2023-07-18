@@ -2,16 +2,16 @@
 This content is for  placement prepration and interview also.
 Certainly! Here is the list of the top 10 frequently asked array-related questions in service-based company interviews:
 # Arrays
-1. Two Sum: https://leetcode.com/problems/two-sum/
-2. Maximum Subarray: https://leetcode.com/problems/maximum-subarray/
-3. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
-4. Rotate Array: https://leetcode.com/problems/rotate-array/
-5. Missing Number: https://leetcode.com/problems/missing-number/
-6. Majority Element: https://leetcode.com/problems/majority-element/
-7. Merge Intervals: https://leetcode.com/problems/merge-intervals/
-8. Move Zeroes: https://leetcode.com/problems/move-zeroes/
-9. Container With Most Water: https://leetcode.com/problems/container-with-most-water/
-10 Next Permutation: https://leetcode.com/problems/next-permutation/
+1.Two Sum
+2. Maximum Subarray
+4. Product of Array Except Self
+5.Rotate Array
+6. Missing Number
+7. Majority Element
+8. Merge Intervals
+9. Move Zeroes
+3. Container With Most Water
+10. Next Permutation
 
 # LinkedList
 
