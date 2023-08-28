@@ -25,6 +25,8 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
   index  0 1 2 3 4 
   result true
  */
+
+
 class Solution {
 public:
     bool findJump(int index,vector<int>& nums,int n,vector<int>& dp){
