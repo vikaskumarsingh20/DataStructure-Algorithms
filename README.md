@@ -1,11 +1,13 @@
 # DataStructure-Algorithms
 This content is for  placement prepration and interview also.
 Certainly! Here is the list of the top 10 frequently asked array-related questions in service-based company interviews:
-# Arrays
-1.Two Sum
+
+# Arrays 
+
+1. Two Sum
 2. Maximum Subarray
 4. Product of Array Except Self
-5.Rotate Array
+5. Rotate Array
 6. Missing Number
 7. Majority Element
 8. Merge Intervals
